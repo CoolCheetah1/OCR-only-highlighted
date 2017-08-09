@@ -13,7 +13,7 @@ Mat KeepHighlightsOnly(Mat img, int r, int g, int b)
 // the order of r, g, b is incorrect, reality is that opencv stores channels in bgr format
 {
   if (img.channels() != 3) {
-    cout << "\nNope. That image didn't seem to be rgb tri-channel." << "\n";
+    cout << "\nNo sir. That image didn't seem to be rgb tri-channel." << "\n";
     exit(3);
   }
 
